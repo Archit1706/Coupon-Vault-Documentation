@@ -11,14 +11,13 @@
 ```js copy
 import axios from "axios";
 let response = await axios.request({
-    url: "https://your-website.compdate",
+    url: "https://CouponVault.sidd065.repl.co/api/skus/update",
     method: "POST",
     headers: {
-        Authorization: "Bearer abcdefghijklmnopqrstuvwxyz0123456789",
-        "Content-Type": "application/js copyon",
+        "Content-Type": "application/json",
     },
-    data: js copyON.stringify({
-        id: "640c7d435f1d16ba9301f2e1",
+    data: JSON.stringify({
+        skuId: "123",
         "Any SKU Parameter": "value",
     }),
 });

@@ -8,7 +8,7 @@
 
 ### Code
 
-```js copy copy copy
+```js copy
 
 ```
 
