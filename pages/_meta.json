@@ -1,7 +1,7 @@
 {
     "index": "Introduction",
-    "Getting_Started": "Getting Started",
-    "Installation": "Installation",
+    "getting_started": "Getting Started",
+    "installation": "Installation",
     "Usage": "Usage",
     "Static_Coupon": "Static Coupon",
     "Dynamic_Coupon": "Dynamic Coupon",
