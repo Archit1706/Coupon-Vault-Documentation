@@ -1,4 +1,4 @@
-## Static Coupon Schema
+# Static Coupon Schema
 
 The Static Coupon object has the following properties:
 

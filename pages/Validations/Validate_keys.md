@@ -11,8 +11,12 @@
 ```js copy
 import axios from "axios";
 let response = await axios.request({
-    url: "https://CouponVault.sidd065.repl.co/api/validate/keys",
+    url: "https://your-website.com/api/validate/keys",
     method: "POST",
+    headers: {
+        Authorization: "Bearer abcdefghijklmnopqrstuvwxyz0123456789",
+        "Content-Type": "application/json",
+    },
 });
 console.log(response.data);
 ```

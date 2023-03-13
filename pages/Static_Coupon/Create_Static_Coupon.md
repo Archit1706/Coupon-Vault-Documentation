@@ -15,9 +15,9 @@ let response = await axios.request({
     method: "POST",
     headers: {
         Authorization: "Bearer abcdefghijklmnopqrstuvwxyz0123456789",
-        "Content-Type": "application/js copyon",
+        "Content-Type": "application/json",
     },
-    data: js copyON.stringify({
+    data: JSON.stringify({
         couponCode: "PAYTM500",
         creationDate: "2023-03-11",
         expiryDate: "2024-03-11",

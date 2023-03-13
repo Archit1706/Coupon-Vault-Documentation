@@ -9,9 +9,12 @@ export default {
         <p
             style={{
                 display: "flex",
-                marginLeft: "10px",
                 justifyContent: "center",
                 alignItems: "center",
+                gap: "0.5rem",
+                fontStyle: "bold",
+                fontSize: "1.25rem",
+                fontFamily: "sans-serif",
             }}
         >
             <GiWallet />
@@ -50,7 +53,7 @@ export default {
             </a>
         ),
     },
-    primaryHue: 200,
+    primaryHue: 190,
     footer: {
         text: (
             <span>

@@ -15,9 +15,9 @@ let response = await axios.request({
     method: "POST",
     headers: {
         Authorization: "Bearer abcdefghijklmnopqrstuvwxyz0123456789",
-        "Content-Type": "application/js copyon",
+        "Content-Type": "application/json",
     },
-    data: js copyON.stringify({
+    data: JSON.stringify({
         parameter: "Spent",
         compare: "greater",
         value: 1600,

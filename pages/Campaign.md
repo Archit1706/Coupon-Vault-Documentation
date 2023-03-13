@@ -1,4 +1,6 @@
-## Campaign
+# Campaign Schema
+
+### Data Model
 
 The campaign object is a schema that defines the structure of a document for a campaign in a MongoDB database. The campaign object contains the following fields:
 

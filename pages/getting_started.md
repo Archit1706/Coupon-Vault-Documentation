@@ -4,7 +4,7 @@ Our Coupon Vault API allows you to create, update, delete, and list both static 
 
 1. Sign up for an API key:
 
-    > To access the Coupon Management API, you will need an API key. You can sign up for an API key by contacting our support team at support@couponvaultapi.com.
+> To access the Coupon Management API, you will need an API key. You can sign up for an API key by contacting our support team at support@couponvaultapi.com.
 
 2. Installation:
 
