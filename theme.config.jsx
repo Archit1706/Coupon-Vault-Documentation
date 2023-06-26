@@ -57,10 +57,10 @@ export default {
     footer: {
         text: (
             <span>
+                {new Date().getFullYear()} ©{" "}
                 <a href="https://coupon-vault.vercel.app" target="_blank">
                     Coupon Vault
                 </a>
-                {new Date().getFullYear()} ©{" "}
             </span>
         ),
     },
